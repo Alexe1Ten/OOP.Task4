@@ -35,6 +35,7 @@ public class DataContainer<T> {
             data[i - 1] = data[i];
         }
         data = Arrays.copyOf(data, data.length - 1);
+        size--;
     }
 
     public void add(T item) {
