@@ -12,9 +12,9 @@ public class Main {
 
 
         DataContainer<String> dataContainer = new DataContainer<String>(String.class);
-        dataContainer.add("a");
-        dataContainer.add("b");
-        dataContainer.add("s");
+        dataContainer.add("Apple");
+        dataContainer.add("Banana");
+        dataContainer.add("Orange");
         System.out.println(dataContainer);
         dataContainer.remove(1);
         System.out.println(dataContainer);
